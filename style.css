@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,800;1,700&display=swap');
+/* default styling */
+:root {
+  --green: #25dac5;
+  --blue: #482be7;
+  --darkblue: #1e0e62;
+}
+* {
+ font-family: "DM Sans", sans-serif;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+/* default styling ends */
+
+/* navbar styling */
+ .hero4 .logo{
+  font-size: 24px ;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: -0.3px;
+  color: var(--darkblue);
+ }
+.inactive {
+ color: var(--darkblue) !important;
+ border: 2px solid #1514391e;
+}
+.hero4 .navbar-nav a{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  }
+
+ /* navbar styling ends */
+
+/* background section styling */
+
+ .hero4 {
+  overflow: hidden;
+  /* height: 100vh; */
+  min-width: 100vw;
+ }
+
+ .content2 {
+  background-color: #2f1893;
+  color: white;
+ }
+
+/* background section styling ends */
+
+
+/* text styling */
+ .content-left h1, .features-text h3 {
+  font-size: 58px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-align: center;
+  line-height: 70px;
+  color: var(--darkblue);
+  }
+
+  .features-text h3 {
+  letter-spacing: -0.4px;
+  font-size: 42px;
+  line-height: 52px;
+  color: white;
+  }
+
+ .content-left p, .features-text p, .content3-text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 50%;
+ }  
+ 
+
+/* text styling ends*/
+.features-img img {
+  width: 160px;
+}
+
+/* button styling starts */
+.content-left .content-btn button, .content3-text button {
+    background-color: var(--blue);
+    border: none;
+    color: white;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 20px;
+    transition: all 3s ease;
+    }
+    .content3-text button {
+     font-size: 16px;
+     line-height: 22px; 
+    }
+
+.hero4 .btn-sign {
+      border: 2px solid rgba(103, 103, 104, 0.541) !important;
+    }
+.btn-ani {
+  transition: ease-out 0.5s;
+  box-shadow: inset 0 0 0 0 plum;
+}
+.btn-ani:hover {
+  box-shadow: inset 300px 0 0 0 plum;
+ }
+/* button styling ends */
+
+/* accordion styling */
+.card1 .card-header {
+  background-color: transparent;
+  border: none;
+}
+.card1 {
+  border-bottom: 1px solid rgb(214, 211, 211);
+
+}
+.accordion .card-body {
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 60%;
+}
+.accordion .btn-link, .content3-text h2 {
+  text-decoration: none;
+  color: #1e0e62;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+.content3-text h2 {
+  color: #151439;
+  opacity: 40%;
+}
+.content3-text p {
+  color: #1e0e62;
+  opacity: 100%;
+}
+.accordion .btn-link::after {
+  font: var(--fa-font-solid);
+  content: "\f078";
+  margin-left: 10px;
+}
+.accordion .btn-link.collapsed::after {
+  font: var(--fa-font-solid);
+  content: "\f054";
+  margin-left: 10px;
+}
+
+ @media screen and 
+(max-width: 650px) {
+.content-left h1, .features-text h3 {
+  font-size: 35px;
+  line-height: 40px;
+  /* padding: 0 15px; */
+ }
+ .features-text h3 {
+  font-size: 25px;
+  /* line-height: 40px; */
+
+ }
+
+.content-left p, .features-text p {
+  font-size: 16px;
+  line-height: 20px;
+  padding: 0 20px;
+  /* text-align: center; */
+ }
+
+ /* .features-img img {
+  width: 50%;
+} */
+
+ .hero4 .break {
+  display: none;
+ }
+}
+
+@media screen and 
+(min-width: 651px) and (max-width: 991px ) {
+ 
+}
+@media screen and 
+(min-width: 992px) and (max-width: 1300px ) {
+  .content-left h1 {
+    margin-top: 10px;
+    font-size: 40px;
+    line-height: 50px;
+    padding-right:  15px;
+   }
+   
+}
+
+@media screen and 
+(min-width: 2000px) {
+ .content-left h1 {
+  font-size: 100px;
+  line-height: 120px;
+}
+
+}
