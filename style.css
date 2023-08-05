@@ -92,6 +92,7 @@
     font-weight: 500;
     line-height: 26px;
     font-size: 20px;
+    cursor: url('./image/hand-pointer-solid.svg'), auto !important;
     transition: all 3s ease;
     }
     .content3-text button {
@@ -100,7 +101,8 @@
     }
 
 .hero4 .btn-sign {
-      border: 2px solid rgba(103, 103, 104, 0.541) !important;
+  cursor: url('./image/hand-pointer-solid.svg'), auto !important;
+  order: 2px solid rgba(103, 103, 104, 0.541) !important;
     }
 .btn-ani {
   transition: ease-out 0.5s;
@@ -112,6 +114,9 @@
 /* button styling ends */
 
 /* accordion styling */
+.card1 .btn .btn-link .btn-block, .card1 button, .card1 .card-header {
+  cursor: url('./image/hand-pointer-solid.svg'), auto !important;
+}
 .card1 .card-header {
   background-color: transparent;
   border: none;
@@ -222,6 +227,9 @@
  .content-left h1 {
   font-size: 100px;
   line-height: 120px;
+  margin-top: 200px;
 }
-
+.hero4 {
+  margin-top: 50px;
+}
 }
