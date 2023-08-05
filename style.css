@@ -32,14 +32,17 @@
   font-weight: 500;
   line-height: 26px;
   }
-
+  .navbar-light .navbar-toggler {
+    border: none;
+    font-size: 30px;
+    color: var(--darkblue);
+  }
  /* navbar styling ends */
 
 /* background section styling */
 
  .hero4 {
   overflow: hidden;
-  /* height: 100vh; */
   min-width: 100vw;
  }
 
@@ -156,24 +159,18 @@
 .content-left h1, .features-text h3 {
   font-size: 35px;
   line-height: 40px;
-  /* padding: 0 15px; */
+  padding: 0 15px;
  }
  .features-text h3 {
   font-size: 25px;
-  /* line-height: 40px; */
 
  }
 
-.content-left p, .features-text p {
+.content-left p, .features-text p, .content3-text p {
   font-size: 16px;
   line-height: 20px;
   padding: 0 20px;
-  /* text-align: center; */
  }
-
- /* .features-img img {
-  width: 50%;
-} */
 
  .hero4 .break {
   display: none;
@@ -182,17 +179,42 @@
 
 @media screen and 
 (min-width: 651px) and (max-width: 991px ) {
- 
+ .hero4 .break {
+  display: none;
+ }
+
+ .content-left h1, .features-text h3 {
+  padding: 0 100px;
+ }
+
+.content-left p, .features-text p, .content3-text p {
+  padding: 0 40px;
+ }
 }
 @media screen and 
 (min-width: 992px) and (max-width: 1300px ) {
+  .hero4 .logo {
+  width: 300px;
+  height: 32px;  
+  }
   .content-left h1 {
     margin-top: 10px;
-    font-size: 40px;
-    line-height: 50px;
-    padding-right:  15px;
+    margin-right:  10px;
+    width: 471px;
+    height: 210px;
    }
-   
+   .content-left p {
+    width: 421px;
+    height: 84px;
+   }
+   .content3-text h2 {
+    width: 189px;
+    height: 18px;
+   }
+   .content3-text p {
+    width: 184px;
+    height: 112px;
+   }
 }
 
 @media screen and 
