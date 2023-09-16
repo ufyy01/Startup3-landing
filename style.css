@@ -161,6 +161,9 @@
 
  @media screen and 
 (max-width: 650px) {
+  .signupbtn{
+    width: 95%;
+  }
 .content-left h1, .features-text h3 {
   font-size: 35px;
   line-height: 40px;
@@ -184,12 +187,18 @@
 
 @media screen and 
 (min-width: 651px) and (max-width: 991px ) {
+  .signupbtn{
+    width: 95%;
+  }
  .hero4 .break {
   display: none;
  }
 
  .content-left h1, .features-text h3 {
   padding: 0 100px;
+ }
+ .content-right img {
+  width: 100%;
  }
 
 .content-left p, .features-text p, .content3-text p {
